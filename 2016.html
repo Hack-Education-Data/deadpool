@@ -4,12 +4,12 @@ title: 2016 Ed-Tech Deadpool
 ---
 
 <!-- Deadpool -->
-{% assign 2016 = site.data.2016 %}
-{% assign 2016 = 2016 | sort:"Name" %}
+{% assign deadpool2016 = site.data.2016 %}
+{% assign deadpool2016 = deadpool2016 | sort:"Name" %}
 
 <!-- Document -->
 
-{% for dead in 2016 %}
+{% for dead in deadpool2016 %}
 
 <p><strong><u>{{ dead.Name }}</u></strong>: 
 
